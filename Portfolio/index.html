@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Kushala Sambani | Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
+  <link rel="stylesheet" href="style.css">
+  <style>
+  section.home {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 100px 50px;
+    min-height: 90vh;
+  }
+
+  .home-img img {
+    width: 320px;
+    border-radius: 20%;
+    box-shadow: 0 0 20px bisque;
+    margin-right: 60px;
+    transition: transform 0.3s;
+  }
+
+  .home-img img:hover {
+    transform: scale(1.05);
+  }
+
+  .home-content {
+    max-width: 600px;
+  }
+
+  .home-content h1 {
+    font-size: 2.8em;
+    margin-bottom: 10px;
+  }
+
+  .home-content span {
+    color: #f5deb3;
+  }
+
+  .home-content p {
+    line-height: 1.6;
+    margin-bottom: 20px;
+  }
+
+  .social-icons a {
+    margin-right: 15px;
+    font-size: 1.5em;
+    color: bisque;
+    transition: 0.3s;
+  }
+
+  .social-icons a:hover {
+    color: #f5deb3;
+  }
+</style>
+
+</head>
+<body>
+  <header>
+    <a href="index.html" class="logo">Kushala</a>
+    <nav>
+      <a href="index.html" class="active">Home</a>
+      <a href="skills.html">Skills</a>
+      <a href="education.html">Education</a>
+      <a href="experience.html">Experience</a>
+      <a href="achievements.html">Achievements</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <section class="home">
+    <div class="home-img">
+      <img src="main.jpeg" alt="Kushala Sambani" />
+    </div>
+    <div class="home-content">
+      <h1>Hi, I'm <span>Kushala Sambani</span></h1>
+      <p>Computer Science undergraduate at SRM University AP, passionate about Web Development, Machine Learning, and Cybersecurity. I love creating impactful projects that combine research, design, and technology.</p>
+      <div class="social-icons">
+        <a href="https://www.linkedin.com/in/kushala-sambani"><i class="fa-brands fa-linkedin"></i></a>
+        <a href="https://github.com/k2u0s0h5i"><i class="fa-brands fa-github"></i></a>
+        <a href="mailto:sambanikushala@gmail.com"><i class="fa-solid fa-envelope"></i></a>
+      </div>
+    </div>
+  </section>
+</body>
+</html>
