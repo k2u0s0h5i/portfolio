@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Skills | Kushala Sambani</title>
+  <link rel="stylesheet" href="style.css">
+  <!-- Font Awesome for skill icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+  <style>
+    body {
+      text-align: center;
+    }
+
+    h1 {
+      font-size: 2.8em;
+      color: bisque;
+      margin-bottom: 10px;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+    }
+
+    p.subtitle {
+      color: #e0c9a6;
+      font-size: 1.1em;
+      margin-bottom: 40px;
+    }
+
+    .skills-section {
+      width: 80%;
+      margin: 0 auto;
+    }
+
+    .skills-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+      gap: 30px;
+      justify-items: center;
+      align-items: center;
+    }
+
+    .skill-box {
+      background: #111;
+      border: 1px solid bisque;
+      border-radius: 12px;
+      padding: 25px 15px;
+      text-align: center;
+      color: bisque;
+      box-shadow: 0 0 10px rgba(255,228,196,0.2);
+      transition: transform 0.3s, box-shadow 0.3s;
+      width: 150px;
+    }
+
+    .skill-box:hover {
+      transform: translateY(-8px);
+      box-shadow: 0 0 20px rgba(255,228,196,0.5);
+    }
+
+    .skill-box i {
+      font-size: 3em;
+      margin-bottom: 10px;
+      color: bisque;
+    }
+
+    .skill-name {
+      font-size: 1.1em;
+      font-weight: 600;
+      letter-spacing: 0.5px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <a href="index.html" class="logo">Kushala</a>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="skills.html" class="active">Skills</a>
+      <a href="education.html">Education</a>
+      <a href="experience.html">Experience</a>
+      <a href="achievements.html">Achievements</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <section class="skills-section">
+    <h1>What I Do</h1>
+    <p class="subtitle">I specialize in frontend and backend development, machine learning, and cybersecurity.</p>
+
+    <div class="skills-grid">
+      <div class="skill-box">
+        <i class="fa-brands fa-html5"></i>
+        <div class="skill-name">HTML</div>
+      </div>
+      <div class="skill-box">
+        <i class="fa-brands fa-css3-alt"></i>
+        <div class="skill-name">CSS</div>
+      </div>
+      <div class="skill-box">
+        <i class="fa-brands fa-js"></i>
+        <div class="skill-name">JavaScript</div>
+      </div>
+      <div class="skill-box">
+        <i class="fa-brands fa-react"></i>
+        <div class="skill-name">React</div>
+      </div>
+      <div class="skill-box">
+        <i class="fa-brands fa-node"></i>
+        <div class="skill-name">Node.js</div>
+      </div>
+      <div class="skill-box">
+        <i class="fa-solid fa-database"></i>
+        <div class="skill-name">MySQL / MongoDB</div>
+      </div>
+      <div class="skill-box">
+        <i class="fa-brands fa-php"></i>
+        <div class="skill-name">PHP</div>
+      </div>
+      <div class="skill-box">
+        <i class="fa-solid fa-shield-halved"></i>
+        <div class="skill-name">Cybersecurity</div>
+      </div>
+      <div class="skill-box">
+        <i class="fa-solid fa-robot"></i>
+        <div class="skill-name">Machine Learning</div>
+      </div>
+      <div class="skill-box">
+        <i class="fa-brands fa-github"></i>
+        <div class="skill-name">GitHub</div>
+      </div>
+    </div>
+  </section>
+</body>
+</html>
